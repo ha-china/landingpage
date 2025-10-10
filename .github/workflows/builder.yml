@@ -63,6 +63,6 @@ jobs:
           --target /data \
           --no-latest \
           --cosign \
-          --docker-hub ha-china \
+          --docker-hub ghcr.io/ha-china \
           --machine landingpage=${{ matrix.machine }}
 
